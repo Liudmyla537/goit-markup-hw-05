@@ -19,7 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Web Studio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -454,7 +454,7 @@
                 <div class="footer-form-subscribe">
                     <form class="footer-form">
                         <label class="footer-form-label">
-                            <input class="footer-form-input" type="e-mail" name="email" placeholder="E-mail">
+                            <input class="footer-form-input" type="email" name="email" placeholder="E-mail">
                         </label>
                         <button class="footer-form-btn" type="submit">Subscribe
                             <svg class="frame" width="24" height="24">
@@ -515,16 +515,30 @@
                 </div>
                 <div class="form-textarea">
                     <label for="user-comment" class="form-label">Comment</label>
+
+                    <textarea class="form-input-area" id="user-comment" name="user-comment" rows="10"
+                        placeholder="Text input"></textarea>
+
+
                 </div>
-                <textarea class="form-input-area" id="user-comment" name="user-comment" rows="10"
-                    placeholder="Text input">
-                    </textarea>
+                <div class="checkbox-container">
+                    <input class="input-user-policy visually-hidden" id="user-policy" type="checkbox" name="user-policy"
+                        value="true">
+                    <label for="user-policy" class="form-label-policy"> <span class="form-label-policy-part">
+                            <svg class="vector" width="10" height="8">
+                                <use href="./images/icons-1.svg#icon-vector"></use>
+                            </svg></span>I accept the terms and conditions of the <a href="#"
+                            class="link-policy">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="bnt-modal" type="submit">Send</button>
+            </form>
         </div>
 
-        </form>
-    </div>
 
     </div>
+
+
 </body>
 
 </html>

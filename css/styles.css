@@ -197,6 +197,7 @@ img {
 }
 
 .button-business {
+  margin: 48px auto 0;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
@@ -206,7 +207,7 @@ img {
 
 button {
   display: block;
-  margin: 48px auto 0;
+  /* margin: 48px auto 0; */
   min-width: 169px;
   height: 56px;
   border: none;
@@ -533,17 +534,17 @@ button:focus {
   align-items: baseline;
 }
 
-.footer-container {
+/* .footer-container {
   margin: 0;
   margin-right: 120px;
-}
+} */
 
-.soc-media {
+/* .soc-media {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 .footer-soc-media {
   width: 100%;

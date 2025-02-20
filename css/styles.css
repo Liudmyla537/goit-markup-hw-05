@@ -894,7 +894,7 @@ button .footer-form-btn {
 }
 
 .bnt-modal {
-  margin: 24px auto;
+  margin: 24px auto 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
